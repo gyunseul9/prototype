@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/* 폰트 */
+
+@font-face {
+    font-family:'Noto Sans KR', sans-serif;
+    src:url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&amp;subset=korean") rel="stylesheet";
+}
+
+
+/*
+@font-face {
+    font-family:'NanumGothic';
+    src:url('/font/NanumGothic.eot') format('eot'),url('/font/NanumGothic.woff') format('woff'),url('/font/NanumGothic.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family:'NanumGothicb';
+    src: url('/font/NanumGothicBold.eot');
+    src: url('/font/NanumGothicBold.eot?#iefix') format('embedded-opentype'),url('/font/NanumGothicBold.woff') format('woff'),url('/font/NanumGothicBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'NanumMyeongjo';
+    src:url('/font/NanumMyeongjo.eot') format('eot'),url('/font/NanumMyeongjo.woff') format('woff'),url('/font/NanumMyeongjo.ttf') format('truetype');
+}
+@font-face {
+    font-family:'NanumBarunGothic';
+    src: url('/font/NBG.eot');
+    src: url('/font/NBG.eot?#iefix') format('embedded-opentype'),url('/font/NBG.woff') format('woff'),url('/font/NBG.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'NanumBarunGothicl';
+    src:url('/font/NanumBarunGothicultralight.eot') format('eot'),url('/font/NanumBarunGothicultralight.woff') format('woff'),url('/font/nanumbarungothicultralight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'NanumBarunGothicb';
+    src:url('/font/NanumBarunGothicBold.eot') format('eot'),url('/font/NanumBarunGothicBold.woff') format('woff'),url('/font/NanumBarunGothicBold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family:'Daum_Regular';
+    src:url('/font/Daum_Regular.eot') format('eot'),url('/font/Daum_Regular.woff') format('woff'),url('/font/Daum_Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'inklip';
+    src:url(/font/THEFACESHOP%20INKLIPQUID.eot);
+}
+@font-face {
+    font-family:'inklip';
+    src: url(/font/THEFACESHOP%20INKLIPQUID.eot) format('eot'),
+    url(/font/THEFACESHOP%20INKLIPQUID.woff) format('woff'),
+    url(/font/THEFACESHOP%20INKLIPQUID.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'SeoulNamsanM';
+    src:url('/font/SeoulNamsanM.eot') format('eot'),url('/font/SeoulNamsanM.woff') format('woff'),url('/font/SeoulNamsanM.ttf') format('truetype');
+}
+@font-face {
+    font-family:'SeoulNamsanL';
+    src:url('/font/SeoulNamsanL.eot') format('eot'),url('/font/SeoulNamsanL.woff') format('woff'),url('/font/SeoulNamsanL.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family:'NanumMyeongjo';
+    src:url('/font/NanumMyeongjo.eot') format('eot'),url('/font/NanumMyeongjo.woff') format('woff'),url('/font/NanumMyeongjo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'SeoulHangangM';
+    src:url('/font/SeoulHangangM.eot?#iefix') format('embedded-opentype'),url('/font/SeoulHangangM.woff') format('woff'),url('/font/SeoulHangangM.ttf') format('truetype');
+}
+
+*/
+
+html>body { overflow-y:scroll; }
+
+
+/* 01_Basic */
+html. body {
+    height:100%;
+    font-family:'Noto Sans KR',sans-serif;
+    font-style:normal;
+    color:#383838;
+    text-align:justify;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+body {
+    line-height: 1; }
+
+ol, ul {
+    list-style: none; }
+
+a:link,
+a:visited { color:#000; text-decoration:none; }
+a:hover, a:focus, a:active { color:#444; }
+
+/* skip */
+#skip { position:absolute; top:0; height:0px; width:100%; z-index:30; }
+#skip a { display:block; height:1px; width:1px; margin-bottom:-1px; overflow:hidden; text-align:center; color:#fff; white-space:nowrap; }
+#skip a:focus,
+#skip a:active { display:block; top:0; width:100%; height:20px; padding:5px 0; background:#0089d6; }
+
+/* input */
+input[type="text"], input[type="number"], input[type="password"]{ padding:3px; height:20px; border:1px solid #d7d7d7; color:#666; }
+input[type="text"].search_text{  }
+input[type="submit"]{ border: none; cursor:pointer; }
+input[type="file"]{ border: none; padding: 1px; }
+
+

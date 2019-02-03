@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+#main_login{
+    margin: 0 auto;
+    text-align: center;
+    background-size:100% 100%;
+    background-image: url('https://s3-ap-northeast-1.amazonaws.com/prototype-ustaff/images/bg.png');
+    background-repeat: no-repeat;
+    background-color: darkblue;
+    height: 100%;
+    background-position: 0 0;
+}
+#main_login h2{
+    text-align: center;
+    padding-top: 15%;
+}
+#main_login h3{
+    border-radius: 30px;
+    width: 230px;
+    background-color: #3e53a0;
+    margin: 20px auto;
+}
+#main_login h3 a{
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    background:url("https://s3-ap-northeast-1.amazonaws.com/prototype-ustaff/images/mimg1.png") no-repeat 50% 50% ;
+}
+
+#main_login .login{
+    margin-top: 25%;
+}
+
+#main_login .login ul{
+    margin: 0 auto;
+    width: 40%;
+}
+
+#main_login .login ul li{
+    background: rgba(255,255,255,0.4);
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 10px 0;
+
+}
+#main_login .login ul li a{
+    display: inline-block;
+    color: #fff;
+}
+
+#main_login .login ul li a span{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+
+
+/* 스마트폰 가로+세로 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+}
+
+
+/* iPad 세로 */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+}
+
+
+/* 데스크탑 브라우저 가로 */
+@media only screen and (min-width : 1200px) {
+}
+
+/* 큰 모니터 */
+@media only screen and (min-width : 1824px) {
+}
+
